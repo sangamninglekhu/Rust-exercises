@@ -20,11 +20,11 @@ fn main() {
         // - If arg is "double", then call the double() function
         // - If arg is anything else, then call the count() function, passing "arg" to it.
         if arg == "sum" {
-            sum()
+            sum();
         } else if arg == "double" {
-            double()
+            double();
         } else {
-            count(arg)
+            count(arg);
         }
 
 
